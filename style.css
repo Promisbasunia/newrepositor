@@ -1,0 +1,991 @@
+.clearefix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.header-section{
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/images/slides/slider1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+ 
+}
+.logo{
+    line-height: 120px;
+}
+
+
+.head-manu{
+    line-height: 120px;
+
+}
+.head-manu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.head-manu ul li{
+    display: inline-block;
+    margin: -4px;
+    line-height: 15px;
+}
+.head-manu ul li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+.head-manu ul li a:hover{
+    color: #000;
+    
+}
+
+/* dropwon-manu */
+/* dropwon-manu */
+
+.head-manu ul li{
+    position: relative;
+   
+}
+.head-manu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150px;
+    text-align: center;
+    padding-left: 0;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 2px;
+}
+.head-manu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.head-manu ul li ul li{
+    display: inline-block;
+    line-height: 20px;
+}
+
+.head-manu ul li ul li a{
+    color: #000;
+    display: block;
+}
+.head-manu ul li ul li a:hover{
+    color: #0073B2;
+}
+
+.margin {
+    padding-top: 154px;
+}
+
+.header-section h1{
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-size: 58px;
+    font-weight: 600;
+    text-shadow: 4px -4px 10px #000;
+    word-spacing: 20px;
+
+}
+.header-section p{
+    color: #fff;
+    padding: 0 0 20px 0;
+    max-width: 80%;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 auto 30px;
+    font-size: 17px;
+}
+.header-section .fa-angle-down{
+    margin-top: 0;
+}
+
+.header-section a {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+.header-section .btn {
+    border-radius: 20px;
+    position: relative;
+    z-index: 999;
+}
+.header-section .btn::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 20px;
+    transition: .3s;
+    z-index: -1;
+}
+.header-section .btn:hover::before{
+    width: 100%;
+}
+/* choose-section */
+/* choose-section */
+.text-section{
+    padding: 50px 0;
+}
+.text-section h1{
+    color: #222222;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display';
+    text-shadow: 4px 4px 2px #d5d5d5;
+    font-weight: 600;
+    padding-top: 35px;
+}
+.text-section p{
+    line-height: 1.6rem;
+    margin: 0 0 20px;
+    font-family: 'Assistant';
+    font-size: 17px;
+    color: #484747;
+}
+.text-section a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #6D65F9;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 29px;
+    font-weight: 600;
+    transition: .5s;
+}
+.text-section a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* responsive-section */
+/* responsive-section */
+.responsive-section {
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/blocks/home_section2/assets/img/section_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px;
+    color: #fff;
+}
+.line{
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.icon-box{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #fff;
+    transform: rotate(-50deg);
+}
+.icon-box i{
+    color: #000;
+    line-height: 100px;
+    font-size: 35px;
+    transform: rotate(50deg);
+}
+.responsive-section h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 15px;
+    padding-top: 30px;
+}
+.responsive-section p{
+    margin-bottom: 30px;
+}
+.responsive-section a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: .5s;
+    font-size: 14px;
+}
+.responsive-section a:hover{
+    border: 1px solid #fff;
+}
+
+
+/* start boxes-ection */
+/* start boxes-ection */
+.boxes-ection .cc{
+    cursor: pointer;
+}
+.boxes-ection .text-1 h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 30px 0 30px;
+}
+
+.boxes-ection .text-1 p{
+    font-family: 'Assistant';
+    font-size: 16px;
+}
+
+/* make-your-section */
+/* make-your-section */
+.make-your-section{
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/blocks/home_section4/assets/img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.make-your-section .text-sec{
+    padding: 100px 0;
+}
+.make-your-section .text-sec h2{
+    color: #fff;
+    font-weight: 600;
+    width: 85%;
+    margin: auto;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    margin: 0 auto 30px;
+    text-shadow: 4px 4px 2px #363636;
+}
+.make-your-section .text-sec p{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+.make-your-section .text-sec a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 40px;
+    border: 2px solid #fff;
+    margin-top: 67px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.make-your-section .text-sec a:hover{
+    border: 1px solid #000;
+    color: #000;
+}
+/* start benefits-section */
+/* start benefits-section */
+.benefits-section{}
+.benefits-section {
+    font-family: 'Assistant';
+    padding: 20px 0;
+}
+.icon-box2{
+    height: 50px;
+    width: 50px;
+    background-color: #FF9000;
+    transform: rotate(-46deg);
+    margin: auto;
+    
+}
+.icon-box2 h5{
+    text-align: center;
+    line-height: 50px;
+    transform: rotate(50deg);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+   
+}
+.line-2{
+    width: 2px;
+    height: 130px;
+    background-color:  #FF9000;
+    margin: auto;
+}
+.text-sec h3{
+    font-size: 22px;
+    color: #222;
+    font-weight: 700;
+    
+}
+.text-sec p{
+    color: #484747;
+    margin-bottom: 4.5rem;
+    
+}
+/* start elastic-boxes */
+/* start elastic-boxes */
+.elastic-boxes{
+    padding: 0 0 100px 0;
+    font-family: 'Playfair Display';
+}
+.elastic-boxes .tt h1{
+    color: #fff;
+    text-shadow: 4px 4px 2px #5c4cd9;
+}
+.elastic-boxes .tt p{
+    color: #fff;
+}
+.elastic-boxes{
+    background-color: #6E5CFC;
+    color: #fff;
+}
+.boxes{
+    height: 400px;
+    width: 25%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transition: .5s;
+}
+.boxes i{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.boxes h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 15px;
+}
+.boxes p{
+    line-height: 1.6rem;
+    margin: 0 0 50px;
+}
+.boxes a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: .5s;
+}
+.boxes a:hover{
+    color: #000;
+}
+.boxes:hover{
+    background-color: #fff;
+    color: #000;
+}
+.boxes:nth-child(5){
+    border-right: 1px solid #fff;
+}
+.boxes:nth-child(9){
+    border-right: 1px solid #fff;
+}
+.boxes:nth-child(6){
+    border-bottom: 1px solid #fff;
+}
+.boxes:nth-child(7){
+    border-bottom: 1px solid #fff;
+}
+.boxes:nth-child(8){
+    border-bottom: 1px solid #fff;
+}
+.boxes:nth-child(9){
+    border-bottom: 1px solid #fff;
+}
+
+/* compatible-section START */
+.text-1 {
+    padding-bottom: 47px;
+}
+/* compatible-section START */
+.compatible-section{
+    padding-bottom: 68px;
+}
+.compatible-section .imgg{
+    padding: 28px 0;
+}
+.compatible-section .tt{
+    margin-top: 20px;
+    
+}
+.compatible-section .imgg h4{
+    color: #000;
+    font-weight: 600;
+    padding-top: 28px;
+}
+.compatible-section .imgg p{
+    color: #484747;
+    
+}
+
+/* start benefits-section */
+/* start benefits-section */
+
+.benefits-section2{
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/blocks/home_section8/assets/img/main_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.benefits-section2 .mm h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    padding-top: 35px;
+    color: #fff;
+    text-shadow: 4px 4px 2px #5c4cd9;
+}
+.text-section3 h4{
+    color: #fff;
+    text-align: right;
+    margin-top: 40px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-section3 p{
+    color: #fff;
+    text-align: right;
+    padding-right: 60px;
+    line-height: 21px;
+
+    font-size: 14px;
+}
+.text-section3 span{
+        display: inline-block;
+        color: #000;
+        background-color: #fff;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 15px;
+        margin-left: 20px;
+        line-height: 37px; 
+        font-family: 'Assistant';
+}
+
+.hr2{
+    border: dashed 1px #ddff;
+    margin-right: 60px;
+}
+.hr3{
+    border: dashed 1px #ddff;
+    margin-left: 60px;
+}
+
+
+.img4 img{
+    max-width: 100%;
+    height: auto; 
+}
+
+.text-section4 h4{
+    color: #fff;
+    text-align: left;
+    margin-top: 40px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-section4 p{
+    color: #fff;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.text-section4 span{
+        display: inline-block;
+        color: #000;
+        background-color: #fff;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 15px;
+        margin-right: 20px;
+        line-height: 37px; 
+        font-family: 'Assistant';
+}
+/* right-section2 */
+/* right-section2 */
+.right-section2{}
+.right-section2 h5{
+    color: #1d1d1d;
+    text-align: left;
+    padding: 0 0 10px 0;
+    font-size: 20px;
+}
+.right-section2 p{
+    color: #474646;
+    margin-bottom: 12px;
+    line-height: 1.6rem;
+}
+.right-section2 a{
+    color: #7456fd;
+    transition: .3s;
+    margin-top: 5px;
+}
+.right-section2 a:hover{
+    color: #3E2F2F;
+}
+.button-section a{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 43px;
+    border-radius: 30px;
+    background-color: #6E5CFC;
+    margin-top: 100px;
+    display: inline-block;
+    transition: .4s;
+}
+.button-section a:hover{
+    background-color: #000;
+}
+
+/* mobile-friendly-section */
+/* mobile-friendly-section */
+
+.mobile-friendly-section{
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/blocks/home_section10/assets/img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+.mobile-friendly-section .box-section4{
+    height: 160px;
+    width: 160px;
+    background-color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+   
+}
+.box-section4 span{
+    line-height: 95px;
+    font-size: 38px;
+}
+.box-section4 h6{
+    font-size: 16px;
+    font-weight: 600;
+}
+.box-section4:hover{
+    background-color: #79AB9F;
+}
+/* elstic-team */
+/* elstic-team */
+.elstic-team{
+    font-family: 'Loto';
+    background-color: #928989;
+}
+.elstic-team h4{
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elstic-team p{
+    color: #4b4646;
+}
+
+.social-icon{
+    display: inline-flex;
+    padding-top: 10px;
+}
+.social-icon .icon {
+    margin: 0 5px;
+    cursor: pointer;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.4s cubic-bezier(0.68.-0.55,0.265,1.55);
+}
+.social-icon .icon span{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.social-icon .icon span i{
+    line-height: 35px;
+    font-size: 20px;
+    z-index: 2;
+}
+.social-icon .icon:hover span{
+    color: #fff;
+}
+.social-icon .icon .toltip{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    top: -60px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68.-0.55,0.265,1.55);
+}
+.social-icon .icon:hover .toltip{
+    opacity: 1;
+    pointer-events: auto;
+}
+.social-icon .icon .toltip::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg); 
+
+}
+.social-icon .icon:hover span,
+.social-icon .icon:hover .toltip{
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+.social-icon .facebook:hover span,
+.social-icon .facebook:hover .toltip,
+.social-icon .facebook:hover .toltip::before{
+    background:#3b5999;
+}
+.social-icon .twitter:hover span,
+.social-icon .twitter:hover .toltip,
+.social-icon .twitter:hover .toltip::before{
+    background:#46C1F6;
+}
+.social-icon .instagram:hover span,
+.social-icon .instagram:hover .toltip,
+.social-icon .instagram:hover .toltip::before{
+    background:#e1306c;
+}
+.social-icon .github:hover span,
+.social-icon .github:hover .toltip,
+.social-icon .github:hover .toltip::before{
+    background:#012736;
+}
+.social-icon .linkedin:hover span,
+.social-icon .linkedin:hover .toltip,
+.social-icon .linkedin:hover .toltip::before{
+    background:#0073B2;
+}
+
+/* identify-skills */
+/* identify-skills */
+.identify-skills{
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/blocks/home_section12/assets/img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 80px 0;
+    color: #fff;
+}
+.identify-skills h1{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display';
+    text-shadow: 4px 4px 2px #5c4cd9;
+    font-weight: 600;
+    padding-top: 35px;
+}
+.identify-skills p{
+    color: #fff;
+}
+.skills-bar .bar{
+    margin: 20px 0;
+}
+
+.skills-bar .bar:first-child{
+    margin-top: 0;
+}
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.skills-bar .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    height: 6px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-color: #F0f0f0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5), 
+                        0 1px rgba(255, 255, 255, 0.8);
+    animation: animated 3s cubic-bezier(0,0,0,0.05) forwards;
+}
+
+.skills-bar .bar .progress-line span{
+    height: 100%;
+    background-color: #FF9000;
+    position: absolute;
+    border-radius: 10px;
+}
+
+@keyframes animated {
+    100%{
+        transform: scale(1);
+    }
+}
+.container3{
+    width: 60%;
+    margin: auto;
+}
+
+.progress-line.html span{
+    width: 90%;
+}
+.progress-line.css span{
+    width: 85%;
+}
+.progress-line.bootstrap span{
+    width: 87%;
+}
+.progress-line.wordpress span{
+    width: 95%;
+}
+.bar .progress-line span::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-color: #000;
+}
+.bar .progress-line span::after{
+    content: "80%";
+    position: absolute;
+    right: 0;
+    top: -28px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+  
+}
+.progress-line.html span::after{
+    content: "90%";
+}
+.progress-line.css span::after{
+    content: "85%";
+}
+.progress-line.bootstrap span::after{
+    content: "87%";
+}
+.progress-line.wordpress span::after{
+    content: "95%";
+}
+
+/* elastic-gallery */
+/* elastic-gallery */
+.elastic-gallery{
+    padding: 50px 0 100px 0;
+}
+.elastic-gallery{}
+
+
+.manu-sectin2 {
+    text-align: center;
+}
+.manu-sectin2 ul{}
+.manu-sectin2 ul li{
+    display: inline-block;
+}
+.manu-sectin2 ul li a{
+    display: block;
+    padding: 5px 25px;
+    color: #000;
+   transition: .4s;
+}
+.manu-sectin2 ul li a:hover{
+    background-color: #218AE4;
+}
+.img-section{}
+.img-section img{
+    min-height: 200px;
+    max-width: 100%;
+}
+/* reviews-section */
+/* reviews-section */
+.reviews-section{
+    background-color: #F7F7F7;
+}
+.reviews-section{}
+
+.reviews-team{
+    padding: 10px 0 90px 0;
+}
+
+.imge-team{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    
+}
+.imge-team img{
+    border-radius: 50%;
+    padding: 40px 0;
+    
+}
+.reviews-team p{
+    padding-top: 90px;
+    line-height: 30px;
+}
+.line2{
+    height: 3px;
+    width: 50px;
+    background-color: #ddd;
+    margin: 30px auto;
+}
+.reviews-team h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding: 15px;
+}
+/* connact-section */
+/* connact-section */
+.connact-section{
+    background: url("https://sktperfectdemo.com/demos/elastic/wp-content/themes/elastic-pro/blocks/home_section15/assets/img/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Assistant";
+}
+.connact-section .tp h1{
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 70px;
+    text-align: center;
+    text-shadow: 4px 4px 2px #1d799f;
+    font-family: 'Playfair Display';
+}
+.left-text p{
+    padding-bottom: 30px;
+    font-size: 19px;
+}
+.left-text h2{
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.left-text span{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-section{
+
+}
+.form-section input{
+    margin: 10px;
+    border: 1px solid #47b44c;
+}
+.form-section textarea{
+    margin: 10px;
+    border: 1px solid #47b44c;
+}
+.button-m a{
+    margin: 10px;
+    padding: 10px 56px;
+    color: #fff;
+    background-color: #13da1d;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.button-m a:hover{
+    color: #333;
+}
+/* footer-section */
+/* footer-section */
+.footer-section{}
+.footer-section{
+    background-color: #1D1D1D;
+    
+}
+.line3{
+    height: 50px;
+    width: 3px;
+   background-color:  #669969;
+    margin: auto;
+}
+.footer-top1{
+    padding: 20px 0 50px 0;
+    color: #fff;
+    background-color: #161616;
+   
+}
+.footer-top1 span{
+    display: inline-block;
+    font-size: 30px;
+}
+.footer-top1 h5{
+    font-size: 16px;
+    
+}
+.footer-top1 p{
+    font-size: 12px;
+    
+}
+.footer-bottom h4{
+    padding-bottom: 20px;
+}
+.footer-bottom p{
+    line-height: 20px;
+    color: #757575;
+}
+.hr{
+    border: dashed 1px rgba(221, 221, 221, 0.253);
+}
+
+.footer-bottom ul{}
+.footer-bottom ul li{
+    list-style: none;
+}
+.footer-bottom ul li a{
+    color: #757575;
+    line-height: 40px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.footer-bottom span{
+    color: #757575;
+}
+.footer-bottom ul li a:hover{
+    color: #fff;
+}
+.fa-caret-square-up{
+    color: seagreen;
+    font-size: 30px;
+    padding: 10px;
+}
+.footer-last {
+    color: #fff;
+    padding: 10px 0;
+    background-color: #000;
+}
